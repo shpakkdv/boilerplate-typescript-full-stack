@@ -1,0 +1,36 @@
+{
+  "extends": ["tslint-config-airbnb", "tslint-react"],
+  "rules": {
+    "variable-name": [
+      true,
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case",
+      "allow-snake-case"
+    ],
+    "curly": [true],
+    "object-shorthand-properties-first": false,
+    "jsx-no-multiline-js": false,
+    "jsx-curly-spacing": [2, { "when": "always", "spacing": { "objectLiterals": "never" } }],
+    "import-name": false,
+    "max-line-length": [
+      true,
+      150
+    ],
+    "semicolon": [true, "always"],
+    "no-increment-decrement": false,
+    "newline-before-return": true,
+    "ban": [
+      true,
+      {"name": ["alert"], "message": "Use Notifications API."},
+      {"name": ["$", "writeln"], "message": "Please use InDesign logger service"}
+    ],
+    "no-debugger": true,
+    "no-any": true,
+    "no-require-imports": true,
+    "no-unused-variable": true,
+    "no-return-await": true,
+    "await-promise": true,
+    "no-inferrable-types": true
+  }
+}

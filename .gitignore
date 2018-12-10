@@ -1,0 +1,9 @@
+# Modules
+/node_modules
+
+# bundle
+/dist
+
+# Created and uploaded archives
+/data/uploads
+/data/zip-archives

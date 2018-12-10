@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  margin: auto;
+}
+
+.upload-article {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+.choose-file {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.upload-button {
+  align-self: flex-end;
+}
+
+.uploading-status {
+  margin-top: 20px;
+  font-size: 20px;
+}
