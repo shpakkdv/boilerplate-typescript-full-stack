@@ -10,7 +10,7 @@
     "server": "ts-node src/server/index.ts",
     "dev": "concurrently \"yarn server\" \"yarn client\""
   },
-  "author": "Dzmitry_Kiseliou@epam.com",
+  "author": "Dmitry Kiselyov <dmitry.kiselyov.mail@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "archiver": "^3.0.0",

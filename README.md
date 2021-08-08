@@ -1,4 +1,4 @@
-# Creation zip archive on server side. Uploading and downloading files.
+# Create a zip archive on the server side and upload / download files.
 
 ## Installation
 ```yarn```
